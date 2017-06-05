@@ -1,6 +1,6 @@
 {
   "name": "instalike-me",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Andrey Revkov <andre.revkov@gmail.com>"
   },
@@ -16,7 +16,7 @@
     "lodash": "^4.17.4",
     "request": "^2.81.0"
   },
-  "license": "ISC",
+  "license": "MIT",
   "engines": {
     "node": ">= 7.3.0"
   },
@@ -31,9 +31,16 @@
     "strategy",
     "automate"
   ],
+  "files": [
+    ".npmignore",
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "package.json"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "readme": "ERROR: No README data found!"
+  "readme": "README.md"
 }
